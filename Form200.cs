@@ -12,6 +12,7 @@ using Microsoft.Data.Sqlite;
 //using Microsoft.EntityFrameworkCore;
 //using Microsoft.Data.SqlClient;
 using System.Data.OleDb;
+using Excel = Microsoft.Office.Interop.Excel;
 
 
 namespace SvoyaIgraOpenVersion
@@ -77,6 +78,30 @@ namespace SvoyaIgraOpenVersion
 
             e.Cancel = true;
             Hide();
+
+        }
+
+
+        // экспорт
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Excel.Application exApp = new Excel.Application();
+
+            exApp.Workbooks.Add();
+            Excel.Worksheet wsh = (Excel.Worksheet)exApp.ActiveSheet;
+            int i, j;
+
+            for (i = 0; i <= dataGridView1.RowCount - 2; i++ )
+            { 
+                for(j = 0; j <= dataGridView1.ColumnCount - 1; j++)
+                {
+                    wsh.Cells[i + 1 , j + 1] = dataGridView1[j, i].Value.ToString();
+                }
+
+            }
+
+            //сразу откроется Эксель файл
+            exApp.Visible = true;
 
         }
     }

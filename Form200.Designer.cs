@@ -35,6 +35,7 @@
             this.Answer = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.QuestionPoint = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.QuestionCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,11 +88,23 @@
             this.QuestionCategory.Name = "QuestionCategory";
             this.QuestionCategory.ReadOnly = true;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(12, 11);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 30);
+            this.button1.TabIndex = 104;
+            this.button1.Text = "Экспорт";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form200
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 615);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form200";
             this.Text = "Form200";
@@ -110,5 +123,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Answer;
         private System.Windows.Forms.DataGridViewTextBoxColumn QuestionPoint;
         private System.Windows.Forms.DataGridViewTextBoxColumn QuestionCategory;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -156,6 +156,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Name = "Form203";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form203";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
