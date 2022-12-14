@@ -63,10 +63,22 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button30_ = new System.Windows.Forms.Button();
+            this.button29_ = new System.Windows.Forms.Button();
+            this.button28_ = new System.Windows.Forms.Button();
+            this.button27_ = new System.Windows.Forms.Button();
+            this.button26_ = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button30 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button29 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
@@ -87,15 +99,16 @@
             this.создатьОтчётToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.обАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -488,6 +501,12 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button30_);
+            this.tabPage2.Controls.Add(this.button29_);
+            this.tabPage2.Controls.Add(this.button28_);
+            this.tabPage2.Controls.Add(this.button27_);
+            this.tabPage2.Controls.Add(this.button26_);
+            this.tabPage2.Controls.Add(this.panel4);
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
@@ -496,6 +515,123 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Раунд 2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button30_
+            // 
+            this.button30_.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button30_.Location = new System.Drawing.Point(745, 25);
+            this.button30_.Name = "button30_";
+            this.button30_.Size = new System.Drawing.Size(120, 60);
+            this.button30_.TabIndex = 12;
+            this.button30_.Text = "button30_";
+            this.button30_.UseVisualStyleBackColor = true;
+            this.button30_.Click += new System.EventHandler(this.button35_Click);
+            // 
+            // button29_
+            // 
+            this.button29_.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button29_.Location = new System.Drawing.Point(619, 25);
+            this.button29_.Name = "button29_";
+            this.button29_.Size = new System.Drawing.Size(120, 60);
+            this.button29_.TabIndex = 11;
+            this.button29_.Text = "button29_";
+            this.button29_.UseVisualStyleBackColor = true;
+            this.button29_.Click += new System.EventHandler(this.button34_Click);
+            // 
+            // button28_
+            // 
+            this.button28_.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button28_.Location = new System.Drawing.Point(493, 25);
+            this.button28_.Name = "button28_";
+            this.button28_.Size = new System.Drawing.Size(120, 60);
+            this.button28_.TabIndex = 10;
+            this.button28_.Text = "button28_";
+            this.button28_.UseVisualStyleBackColor = true;
+            this.button28_.Click += new System.EventHandler(this.button33_Click);
+            // 
+            // button27_
+            // 
+            this.button27_.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button27_.Location = new System.Drawing.Point(367, 25);
+            this.button27_.Name = "button27_";
+            this.button27_.Size = new System.Drawing.Size(120, 60);
+            this.button27_.TabIndex = 9;
+            this.button27_.Text = "button27_";
+            this.button27_.UseVisualStyleBackColor = true;
+            this.button27_.Click += new System.EventHandler(this.button32_Click);
+            // 
+            // button26_
+            // 
+            this.button26_.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button26_.Location = new System.Drawing.Point(241, 24);
+            this.button26_.Name = "button26_";
+            this.button26_.Size = new System.Drawing.Size(120, 60);
+            this.button26_.TabIndex = 8;
+            this.button26_.Text = "button26_";
+            this.button26_.UseVisualStyleBackColor = true;
+            this.button26_.Click += new System.EventHandler(this.button31_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.label15);
+            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.label17);
+            this.panel4.Location = new System.Drawing.Point(6, 6);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(230, 432);
+            this.panel4.TabIndex = 7;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(6, 350);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(114, 31);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "Это база";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(6, 270);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(164, 31);
+            this.label14.TabIndex = 3;
+            this.label14.Text = "На разогреве";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.Location = new System.Drawing.Point(6, 190);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(100, 31);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Клейма";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Location = new System.Drawing.Point(6, 110);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(182, 31);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "ГОСТ 50530-2";
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.Location = new System.Drawing.Point(6, 18);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(209, 63);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Сертификация служ. и гражд.";
             // 
             // tabPage3
             // 
@@ -542,6 +678,17 @@
             this.button30.Text = "Game over";
             this.button30.UseVisualStyleBackColor = true;
             this.button30.Click += new System.EventHandler(this.button30_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SvoyaIgraOpenVersion.Properties.Resources.if2SVoPD_400x400;
+            this.pictureBox1.InitialImage = global::SvoyaIgraOpenVersion.Properties.Resources.if2SVoPD_400x400;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(219, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // button29
             // 
@@ -742,17 +889,6 @@
             this.обАвтореToolStripMenuItem.Text = "Об авторе";
             this.обАвтореToolStripMenuItem.Click += new System.EventHandler(this.обАвтореToolStripMenuItem_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SvoyaIgraOpenVersion.Properties.Resources.if2SVoPD_400x400;
-            this.pictureBox1.InitialImage = global::SvoyaIgraOpenVersion.Properties.Resources.if2SVoPD_400x400;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 151);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -778,13 +914,16 @@
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -851,6 +990,17 @@
         private System.Windows.Forms.ToolStripMenuItem создатьОтчётToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem обАвтореToolStripMenuItem;
+        private System.Windows.Forms.Button button30_;
+        private System.Windows.Forms.Button button29_;
+        private System.Windows.Forms.Button button28_;
+        private System.Windows.Forms.Button button27_;
+        private System.Windows.Forms.Button button26_;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
     }
 }
 

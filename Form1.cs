@@ -57,6 +57,12 @@ namespace SvoyaIgraOpenVersion
             form202 = new Form202();
             form203 = new Form203();
 
+            form26 = new Form26(); //5 блок вопросов "Сертификация"
+            form27 = new Form27();
+            form28 = new Form28();
+            form29 = new Form29();
+            form30 = new Form30();
+
             form300GameOver = new Form300GameOver(); //Game over
         }
 
@@ -96,6 +102,12 @@ namespace SvoyaIgraOpenVersion
         Form203 form203;
 
         Form300GameOver form300GameOver;
+
+        Form26 form26;
+        Form27 form27;
+        Form28 form28;
+        Form29 form29;
+        Form30 form30;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -336,8 +348,35 @@ namespace SvoyaIgraOpenVersion
             // загреивать не будем
         }
         //
+        private void button31_Click(object sender, EventArgs e)
+        {
+            form26.Show();
+            form26.FormClosed += (s, e1) => button26_.Enabled = false;
+        }
 
+        private void button32_Click(object sender, EventArgs e)
+        {
+            form27.Show();
+            form27.FormClosed += (s, e1) => button27_.Enabled = false;
+        }
 
+        private void button33_Click(object sender, EventArgs e)
+        {
+            form28.Show();
+            form28.FormClosed += (s, e1) => button28_.Enabled = false;
+        }
 
+        private void button34_Click(object sender, EventArgs e)
+        {
+            form29.Show();
+            form29.FormClosed += (s, e1) => button29_.Enabled = false;
+
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            form30.Show();
+            form30.FormClosed += (s, e1) => button30_.Enabled = false;
+        }
     }
 }
