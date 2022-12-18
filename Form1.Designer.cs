@@ -103,7 +103,6 @@
             this.button28 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button26 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -117,6 +116,7 @@
             this.создатьОтчётToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.обАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -953,7 +953,7 @@
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(120, 60);
             this.button29.TabIndex = 11;
-            this.button29.Text = "button29";
+            this.button29.Text = "300";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
@@ -964,7 +964,7 @@
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(120, 60);
             this.button28.TabIndex = 10;
-            this.button28.Text = "button28";
+            this.button28.Text = "300";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
@@ -975,28 +975,18 @@
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(120, 60);
             this.button27.TabIndex = 9;
-            this.button27.Text = "button27";
+            this.button27.Text = "300";
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.label11);
             this.panel2.Location = new System.Drawing.Point(13, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(176, 87);
+            this.panel2.Size = new System.Drawing.Size(176, 95);
             this.panel2.TabIndex = 0;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(49, 32);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 31);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "КТО?";
             // 
             // label1
             // 
@@ -1123,6 +1113,15 @@
             this.обАвтореToolStripMenuItem.Text = "Об авторе";
             this.обАвтореToolStripMenuItem.Click += new System.EventHandler(this.обАвтореToolStripMenuItem_Click);
             // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(8, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(165, 76);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Наши общие   знакомые";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1156,7 +1155,6 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -1210,7 +1208,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button27;
@@ -1254,6 +1251,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label11;
     }
 }
 

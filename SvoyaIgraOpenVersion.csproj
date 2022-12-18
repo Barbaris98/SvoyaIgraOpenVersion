@@ -640,6 +640,7 @@
     <None Include="Resources\bullets.ico" />
     <None Include="Resources\kazino.png" />
     <None Include="Resources\statya.jpg" />
+    <None Include="Resources\ognya.jpg" />
     <Content Include="SQLQuery1.sql" />
   </ItemGroup>
   <ItemGroup>

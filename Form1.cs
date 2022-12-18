@@ -11,7 +11,6 @@ using System.Data.SqlClient;
 //using System.Data.SQLite;
 using Microsoft.Data.Sqlite;
 using System.Diagnostics;
-//using System.Threading;
 
 namespace SvoyaIgraOpenVersion
 {
@@ -311,7 +310,7 @@ namespace SvoyaIgraOpenVersion
         }
 
 
-        // обновить
+        //обновить
         private void button26_Click(object sender, EventArgs e)
         {
             if (textBox1 != null)
