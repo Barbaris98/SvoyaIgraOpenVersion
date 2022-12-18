@@ -63,6 +63,30 @@ namespace SvoyaIgraOpenVersion
             form29 = new Form29();
             form30 = new Form30();
 
+            form31 = new Form31(); // вопросов "Калибры"
+            form32 = new Form32();
+            form33 = new Form33();
+            form34 = new Form34();
+            form35 = new Form35();
+
+            form36 = new Form36(); // вопросов "длинное названиие"
+            form37 = new Form37();
+            form38 = new Form38();
+            form39 = new Form39();
+            form40 = new Form40();
+
+            form41 = new Form41(); // вопросов "пневматика"
+            form42 = new Form42();
+            form43 = new Form43();
+            form44 = new Form44();
+            form45 = new Form45();
+
+            form46 = new Form46(); // вопросов "пневматика тонксти"
+            form47 = new Form47();
+            form48 = new Form48();
+            form49 = new Form49();
+            form50 = new Form50();
+
             form300GameOver = new Form300GameOver(); //Game over
         }
 
@@ -108,6 +132,30 @@ namespace SvoyaIgraOpenVersion
         Form28 form28;
         Form29 form29;
         Form30 form30;
+
+        Form31 form31;
+        Form32 form32;
+        Form33 form33;
+        Form34 form34;
+        Form35 form35;
+
+        Form36 form36;
+        Form37 form37;
+        Form38 form38;
+        Form39 form39;
+        Form40 form40;
+
+        Form41 form41;
+        Form42 form42;
+        Form43 form43;
+        Form44 form44;
+        Form45 form45;
+
+        Form46 form46;
+        Form47 form47;
+        Form48 form48;
+        Form49 form49;
+        Form50 form50;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -345,7 +393,7 @@ namespace SvoyaIgraOpenVersion
         private void button30_Click(object sender, EventArgs e)
         {
             form300GameOver.Show();
-            // загреивать не будем
+            form300GameOver.FormClosed += (s, e1) => button30.Enabled = false;
         }
         //
         private void button31_Click(object sender, EventArgs e)
@@ -377,6 +425,131 @@ namespace SvoyaIgraOpenVersion
         {
             form30.Show();
             form30.FormClosed += (s, e1) => button30_.Enabled = false;
+        }
+
+        //Калибры
+        private void button31_Click_1(object sender, EventArgs e)
+        {
+            form31.Show();
+            form31.FormClosed += (s, e1) => button31.Enabled = false;
+        }
+
+        private void button32_Click_1(object sender, EventArgs e)
+        {
+            form32.Show();
+            form32.FormClosed += (s, e1) => button32.Enabled = false;
+        }
+
+        private void button33_Click_1(object sender, EventArgs e)
+        {
+            form33.Show();
+            form33.FormClosed += (s, e1) => button33.Enabled = false;
+        }
+
+        private void button34_Click_1(object sender, EventArgs e)
+        {
+            form34.Show();
+            form34.FormClosed += (s, e1) => button34.Enabled = false;
+        }
+
+        private void button35_Click_1(object sender, EventArgs e)
+        {
+            form35.Show();
+            form35.FormClosed += (s, e1) => button35.Enabled = false;
+        }
+
+
+        //длинное название
+        private void button36_Click(object sender, EventArgs e)
+        {
+            form36.Show();
+            form36.FormClosed += (s, e1) => button36.Enabled = false;
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            form37.Show();
+            form37.FormClosed += (s, e1) => button37.Enabled = false;
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            form38.Show();
+            form38.FormClosed += (s, e1) => button38.Enabled = false;
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            form39.Show();
+            form39.FormClosed += (s, e1) => button39.Enabled = false;
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            form40.Show();
+            form40.FormClosed += (s, e1) => button40.Enabled = false;
+        }
+        //пневматика
+        private void button41_Click(object sender, EventArgs e)
+        {
+            form41.Show();
+            form41.FormClosed += (s, e1) => button41.Enabled = false;
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            form42.Show();
+            form42.FormClosed += (s, e1) => button42.Enabled = false;
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            form43.Show();
+            form43.FormClosed += (s, e1) => button43.Enabled = false;
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            form44.Show();
+            form44.FormClosed += (s, e1) => button44.Enabled = false;
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            form45.Show();
+            form45.FormClosed += (s, e1) => button45.Enabled = false;
+        }
+
+
+        //пневматика тонкости
+        private void button46_Click(object sender, EventArgs e)
+        {
+            form46.Show();
+            form46.FormClosed += (s, e1) => button46.Enabled = false;
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            form47.Show();
+            form47.FormClosed += (s, e1) => button47.Enabled = false;
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            form48.Show();
+            form48.FormClosed += (s, e1) => button48.Enabled = false;
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            form49.Show();
+            form49.FormClosed += (s, e1) => button49.Enabled = false;
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            form50.Show();
+            form50.FormClosed += (s, e1) => button50.Enabled = false;
         }
     }
 }

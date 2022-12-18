@@ -271,17 +271,137 @@
     <Compile Include="Form300GameOver.Designer.cs">
       <DependentUpon>Form300GameOver.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form39.Designer.cs">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form40.Designer.cs">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form41.Designer.cs">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form42.Designer.cs">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form43.Designer.cs">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form44.Designer.cs">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form45.Designer.cs">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form46.Designer.cs">
+      <DependentUpon>Form46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form47.Designer.cs">
+      <DependentUpon>Form47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form48.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form48.Designer.cs">
+      <DependentUpon>Form48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form49.Designer.cs">
+      <DependentUpon>Form49.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form50.Designer.cs">
+      <DependentUpon>Form50.cs</DependentUpon>
     </Compile>
     <Compile Include="Form6.cs">
       <SubType>Form</SubType>
@@ -399,11 +519,71 @@
     <EmbeddedResource Include="Form300GameOver.resx">
       <DependentUpon>Form300GameOver.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form39.resx">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form40.resx">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form41.resx">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form42.resx">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form43.resx">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form44.resx">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form45.resx">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form46.resx">
+      <DependentUpon>Form46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form47.resx">
+      <DependentUpon>Form47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form48.resx">
+      <DependentUpon>Form48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form49.resx">
+      <DependentUpon>Form49.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form50.resx">
+      <DependentUpon>Form50.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
@@ -458,6 +638,8 @@
     <None Include="Resources\iklemo1.png" />
     <None Include="Resources\if2SVoPD_400x400.png" />
     <None Include="Resources\bullets.ico" />
+    <None Include="Resources\kazino.png" />
+    <None Include="Resources\statya.jpg" />
     <Content Include="SQLQuery1.sql" />
   </ItemGroup>
   <ItemGroup>
